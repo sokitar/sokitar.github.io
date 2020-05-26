@@ -33,9 +33,53 @@ div#main{
 	max-width: 70%;
 	background-color: #FFFFFF;
 	padding: 1%;
+	overflow: auto;
 }
 
 hr.rounded {
   border-top: 5px solid #1B9AAA;
   border-radius: 5px;
+}
+
+hr.divider {
+  border-top: 2px solid #1B9AAA;
+  border-radius: 5px;
+}
+
+div#about{
+	width: 35%;
+	border-right: 2px solid #1B9AAA;
+	float:left;
+	padding: 5px 5px 5px 0;
+}
+
+img#perfil{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: block;
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+img.contact-icon{
+	width: 40px;	
+	height: 40px;
+	display: inline-block;
+}
+
+p#about-text {
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+div#cv-info{
+	float: left;
+	width: 64%;
 }
