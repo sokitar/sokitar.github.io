@@ -4,6 +4,7 @@
  #1B9AAA Munsell Blue
  #FFFFFF White
  #38023B Russian Violet
+ #ADE5EC Helao de pistacho
 */
 
 body {
@@ -55,31 +56,54 @@ div#about{
 
 img#perfil{
 	width: 55%;
-	height: 300px;
+	height: 220pt;
 	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-top: 10pt;
+	margin-bottom: 20pt;
 	display: block;
 	clear: right;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
 img.contact-icon{
-	width: 40px;	
-	height: 40px;
+	width: 30pt;	
+	height: 30pt;
+	display: inline-block;
+}
+img.donation-icon{
+	width: 100pt;	
+	height: 30pt;
 	display: inline-block;
 }
 
-p#about-text {
+div#about-text {
 	display: block;
-	margin-top: 10px;
-	padding: 10px;
+	background-color: #ade5ec;
+	border-radius: 5px;
+	margin-top: 10pt;
+	margin-right: 10pt;
+	padding: 10pt;
+	text-align: justify;
 }
 
-div#cv-info{
+hr.simple{
+	background-color: black;
+	border: none;
+	height: 1pt;
+}
+
+div#cv-info-wrapper{
 	float: left;
 	width: 64%;
 }
+
+div#last-je{
+	margin: 10pt;
+	background-color: #ade5ec;
+	border-radius: 5px;
+	padding: 5pt;
+}
+
