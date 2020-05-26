@@ -1,0 +1,41 @@
+/*WEBPAGE COLOUR PALETTE
+ #E5F9E0 Nyanza
+ #050505 Rich black
+ #1B9AAA Munsell Blue
+ #FFFFFF White
+ #38023B Russian Violet
+*/
+
+body {
+	background-color: #E5F9E0;
+}
+
+#title {
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#title h1 {
+	text-align: center;
+	margin-bottom: 1%
+}
+
+#subtitle{
+	text-align: center;
+	color: #A6A6A6;
+}
+
+div#main{
+	font: 18px Helvetica;
+	border: 3px dashed #38023B;
+	border-radius: 10px;
+	margin: auto;
+	max-width: 70%;
+	background-color: #FFFFFF;
+	padding: 1%;
+}
+
+hr.rounded {
+  border-top: 5px solid #1B9AAA;
+  border-radius: 5px;
+}
