@@ -22,50 +22,6 @@
   width: 100%;
 }
 
-/*Nº de columnas del grid que va a ocupar*/
-@media only screen and (min-width: 768px) {
-	.col-1 {width: 8.33%;}
-	.col-2 {width: 16.66%;}
-	.col-3 {width: 25%;}
-	.col-4 {width: 33.33%;}
-	.col-5 {width: 41.66%;}
-	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
-	.col-8 {width: 66.66%;}
-	.col-9 {width: 75%;}
-	.col-10 {width: 83.33%;}
-	.col-11 {width: 91.66%;}
-	.col-12 {width: 100%;}
-
-	div#main-wrapper{
-		font-size: 20pt;
-	}
-
-	div#about{
-		border-right: 2px solid #1B9AAA;
-	}
-
-	div.about-block {
-		margin-right: 10pt;
-	}
-
-	div#lastje-container{
-		margin: 10pt 10pt 0pt 10pt;
-	}
-
-	div#proyects-container{
-		margin: 0pt 10pt 10pt 10pt;
-	}
-
-	div.proyect-content{
-		overflow: visible;
-	}
-
-	.mobile {
-		display: none;
-	}
-}
-
 html {
 	font-family: Helvetica, "Lucida Sans", sans-serif;
 }
@@ -75,11 +31,12 @@ body {
 }
 
 div#main-wrapper{
-	font-size: 11pt;
+	width: 97%;
 	border: 3px dashed #38023B;
 	border-radius: 10px;
 	margin: auto;
 	background-color: #FFFFFF;
+	font-size: 11pt;
 	overflow: auto;
 }
 
@@ -92,8 +49,8 @@ header {
 #name-title {
 	text-align: center;
 	margin-bottom: 1%;
-	font-size: 20pt;
 	font-weight: bolder;
+	font-size: 20pt;
 }
 
 #subtitle{
@@ -236,4 +193,61 @@ a.dwnld-link{
 img.dwnld-icon{
 	width: 100%;
 	height: 100%;
+}
+
+/*PANTALLAS GRANDES*/
+@media only screen and (min-width: 992px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+
+	div#main-wrapper{
+		width: 80%;
+		font-size: 14pt;
+	}
+
+	#name-title {
+		font-size: 40pt;
+	}
+
+	div#about{
+		border-right: 2px solid #1B9AAA;
+	}
+
+	div.about-block {
+		margin-right: 10pt;
+	}
+
+	div#lastje-container{
+		margin: 10pt 10pt 0pt 10pt;
+	}
+
+	div#proyects-container{
+		margin: 0pt 10pt 10pt 10pt;
+	}
+
+	div.proyect-content{
+		padding-bottom: 2%;
+		border-bottom: none;
+		margin-bottom: 0;
+		overflow: visible;
+	}
+
+	a.dwnld-link{
+		float: right;
+	}
+
+	.mobile {
+		display: none;
+	}
 }
