@@ -2,73 +2,79 @@
 <html>
 <head>
 	<title>Oscar Alexander Kirschstein Schafer</title>
-
+	<!--Para RWD-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-	<div id="main">
-		<div id="title">
-			<h1> Oscar Alexander Kirschstein Schafer </h1>
+	<div id="main-wrapper">
+		<header>
+			<div id="name-title"> Oscar Alexander Kirschstein Schafer </div>
 			<div id="subtitle">Last year student at Universidad Autónoma de Madrid</div>
 			<hr class="rounded">
-		</div>
-		<div id="about">
-			<img id="perfil" src="./img/fotoperfil.jpeg" alt="Apparently missing profile picture :(">
-			<hr class="divider">
-			<a href="https://github.com/sokitar" target="_blank">
-				<img src="img/github.png" class="contact-icon">
-			</a>
-			<a href="https://www.linkedin.com/in/oscar-kirschstein" target="_blank">
-				<img src="img/linkedin.png" class="contact-icon">
-			</a>
-			<a href="https://www.paypal.me/oakirs/3" target="_blank">
-				<img src="img/coffee.png" class="donation-icon">
-			</a>
-			<div class="about-block">
-				<b>ABOUT</b>
-				<hr class="simple">
-				Hey, traveler of the worldwide web!<br><br>
-				I'm <b> Oscar</b>. I was born on the <b>3/10/1997</b>. I am an enthusiastic to-be computer engineer living in <b>Madrid, Spain.</b><br><br>
-				I'm currently studying a <b>Bachelor of Computer Science</b> at the <b>Universidad Autónoma de Madrid</b>, in the last year.<br><br>
-				I love programming and expanding my knowledge constantly!<br>
-
-			</div>
-			<div class="about-block">
-				<b>SKILLS & EXPERIENCE</b>
-				<hr class="simple">
-				<b>LANGUAGES</b>: German (mother-language), Spanish (native), English (B2)<br><br>
-				<b>PROGRAMMING LANGUAGES</b>: Python, C, Java, C#, VisualBasic, Bash Scripting, JavaScript<br><br>
-				<b>DB ADMINISTRATION</b>: Postgresql, Transact-SQL, SSMS, Tora, Postgres Command-line<br><br>
-				<b>WEB APP</b>: Django, Flask, ASP.NET<br><br>
-			</div>
-		</div>
-		<div id="cv-info-wrapper">
-			<div id="lastje-container">
-				<b>LATEST JOB EXPERIENCE:</b>
-				<hr class="simple">
-				<i>MANAGEMENT SOLUTIONS</i><br>
-				<u>Position:</u> <i>Intern</i><br>
-				<u>Duration:</u> <i>2 Months</i><br>
-				<u>Period:</u> <i>28/09/2019 - 28/02/2020</i><br>
-				<u>Description:</u> Back-end development in the ASP.NET environment.
-			</div>
-			<div id="proyects-container">
-				<h2>PROYECTS</h2>
-				<hr id="proyect">
-				<div class="proyect">
-					<div class="proyect-title">WordComp</div>
-					<div class="proyect-date">27th May of 2020</div>
+		</header>
+		<div class="row">
+			<div id="about" class="col-3">
+				<img id="perfil" src="./img/fotoperfil.jpeg" alt="Apparently missing profile picture :(">
+				<hr class="img-divider">
+				<div id="social-hub">
+					<a class="sh-link" href="https://github.com/sokitar" target="_blank">
+						<img src="img/github.png" class="contact-icon">
+					</a>
+					<a class="sh-link" href="https://www.linkedin.com/in/oscar-kirschstein" target="_blank">
+						<img src="img/linkedin.png" class="contact-icon">
+					</a>
+					<a class="dono-link" href="https://www.paypal.me/oakirs/3" target="_blank">
+						<img src="img/coffee.png" class="donation-icon">
+					</a>
+				</div>
+				<div class="about-block">
+					<b>ABOUT</b>
 					<hr class="simple">
-					<div class="proyect-content">
-						<div class="proyect-img"><img class="proyect-icon" src="./img/proyects/WordCompIcon.png" alt="Proyect image">
+					Hey, traveler of the worldwide web!<br><br>
+					I'm <b> Oscar</b>. I was born on the <b>3/10/1997</b>. I am an enthusiastic to-be computer engineer living in <b>Madrid, Spain.</b><br><br>
+					I'm currently studying a <b>Bachelor of Computer Science</b> at the <b>Universidad Autónoma de Madrid</b>, in the last year.<br><br>
+					I love programming and expanding my knowledge constantly!<br>
+
+				</div>
+				<div class="about-block">
+					<b>SKILLS & EXPERIENCE</b>
+					<hr class="simple">
+					<b>LANGUAGES</b>: German (native), Spanish (native), English (B2)<br><br>
+					<b>PROGRAMMING LANGUAGES</b>: Python, C, Java, C#, VisualBasic, Bash Scripting, JavaScript<br><br>
+					<b>DB ADMINISTRATION</b>: Postgresql, Transact-SQL, SSMS, Tora, Postgres Command-line<br><br>
+					<b>WEB APP</b>: Django, Flask, ASP.NET<br><br>
+				</div>
+			</div>
+			<div id="cv-info-wrapper" class="col-9">
+				<div id="lastje-container">
+					<b>LATEST JOB EXPERIENCE:</b>
+					<hr class="simple">
+					<i>MANAGEMENT SOLUTIONS</i><br>
+					<u>Position:</u> <i>Intern</i><br>
+					<u>Duration:</u> <i>2 Months</i><br>
+					<u>Period:</u> <i>28/09/2019 - 28/02/2020</i><br>
+					<u>Description:</u> Back-end development in the ASP.NET environment.
+				</div>
+				<div id="proyects-container">
+					<h2>PROYECTS</h2>
+					<hr class="simple">
+					<div class="proyect">
+						<div class="proyect-title">WordComp</div>
+						<div class="proyect-date">27th May of 2020</div>
+						<hr class="simple">
+						<div class="proyect-content">
+							<div class="proyect-img"><img class="proyect-icon" src="./img/proyects/WordCompIcon.png" alt="Proyect image">
+							</div>
+							<div class="proyect-text">
+								My first MS Word add-in. Allows you to use Word's compare functionality at folder-level.
+							</div>
 						</div>
-						<div class="proyect-txt">
-							My first MS Word add-in. Allows you to use Word's compare functionality at folder-level. aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaa aaaaaaaaa aaaaaaaaaaaaaaaaa
-						</div>
+
+						<a href="#" class="dwnld-link">
+							<img src="img/dwnld.png" alt="DOWNLOAD" class="dwnld-icon">
+						</a>	
 					</div>
-					<a href="#">
-					<img src="img/dwnld.png" alt="DOWNLOAD" class="dwnld-icon">
-					</a>	
 				</div>
 			</div>
 		</div>

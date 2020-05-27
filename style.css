@@ -7,18 +7,93 @@
  #ADE5EC Helao de pistacho
 */
 
+* {
+  box-sizing: border-box; /*Para que se incluya el padding y los bordes en el width*/
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+/*Nº de columnas del grid que va a ocupar*/
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	div#main-wrapper{
+		font-size: 20pt;
+	}
+
+	div#about{
+		border-right: 2px solid #1B9AAA;
+	}
+
+	div.about-block {
+		margin-right: 10pt;
+	}
+
+	div#lastje-container{
+		margin: 10pt 10pt 0pt 10pt;
+	}
+
+	div#proyects-container{
+		margin: 0pt 10pt 10pt 10pt;
+	}
+
+	div.proyect-content{
+		overflow: visible;
+	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+html {
+	font-family: Helvetica, "Lucida Sans", sans-serif;
+}
+
 body {
 	background-color: #E5F9E0;
 }
 
-#title {
-	font-variant: small-caps;
-	text-align: center;
+div#main-wrapper{
+	font-size: 11pt;
+	border: 3px dashed #38023B;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #FFFFFF;
+	overflow: auto;
 }
 
-#title h1 {
+header {
+	font-variant: small-caps;
 	text-align: center;
-	margin-bottom: 1%
+	padding: 5% 5% 0% 5%;
+}
+
+#name-title {
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: 20pt;
+	font-weight: bolder;
 }
 
 #subtitle{
@@ -26,50 +101,46 @@ body {
 	color: #A6A6A6;
 }
 
-div#main{
-	font: 18px Helvetica;
-	border: 3px dashed #38023B;
-	border-radius: 10px;
-	margin: auto;
-	max-width: 70%;
-	background-color: #FFFFFF;
-	padding: 1%;
-	overflow: auto;
-}
 
 hr.rounded {
   border-top: 5px solid #1B9AAA;
   border-radius: 5px;
 }
 
-hr.divider {
+hr.img-divider {
   border-top: 2px solid #1B9AAA;
   border-radius: 5px;
 }
 
-div#about{
-	width: 35%;
-	border-right: 2px solid #1B9AAA;
-	float:left;
-	padding: 5px 5px 5px 0;
-}
-
 img#perfil{
-	width: 200pt;
-	height: 220pt;
+	max-width: 80%;
+	height: auto;
 	margin: auto;
-	margin-top: 10pt;
-	margin-bottom: 20pt;
+	margin-bottom: 7%;
 	display: block;
 	clear: right;
 	border-style: dotted;
 	border-color: #38023B;
 }
 
-a {
-	text-decoration: none;
+#social-hub {
+	text-align: center;
+	margin-top: 5%
 }
 
+a.sh-link {
+	text-decoration: none;
+	width: 30pt;	
+	height: 30pt;
+	display: inline-block;
+}
+
+a.dono-link{
+	text-decoration: none;
+	width: 100pt;
+	height: 30pt;
+	display: inline-block;
+}
 img.contact-icon{
 	width: 30pt;	
 	height: 30pt;
@@ -86,7 +157,6 @@ div.about-block {
 	background-color: #ade5ec;
 	border-radius: 5px;
 	margin-top: 10pt;
-	margin-right: 10pt;
 	padding: 10pt;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 }
@@ -98,23 +168,15 @@ hr.simple{
 	clear: both;
 }
 
-div#cv-info-wrapper{
-	float: left;
-	width: 64%;
-}
-
 div#lastje-container{
-	margin: 10pt 10pt 0pt 10pt;
 	background-color: #ade5ec;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 	border-radius: 5px;
 	padding: 10pt;
 }
 
-div#proyects-container{
-	margin: 0pt 10pt 10pt 10pt;
-	border-radius: 5px;
-	padding: 5pt;
+#cv-info-wrapper{
+	padding-top: 0;
 }
 
 div.proyect{
@@ -122,7 +184,6 @@ div.proyect{
 	background-color: #afa8c7;
 	border-radius: 5px;
 	margin-top: 10pt;
-	margin-right: 10pt;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 	padding: 10pt;
 	text-align: justify;
@@ -133,7 +194,8 @@ div.proyect-title{
 	font-variant: small-caps;
 	font-size: 20pt;
 	font-weight: bold; 
-	float: left
+	margin-top: 3%;
+	float: left;
 }
 
 div.proyect-date{
@@ -143,15 +205,19 @@ div.proyect-date{
 }
 
 div.proyect-content{
-	clear: both;
+	overflow: auto;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black;
+	margin-bottom: 3%;
 }
 
 div.proyect-img{
 	height: 100pt;
 	width: 100pt;
 	float: left;
-	margin-right: 20pt;
+	margin-right: 5%;
 }
+
 
 img.proyect-icon{
 	width: 100%;
@@ -160,8 +226,14 @@ img.proyect-icon{
 	border-style: dotted;
 }
 
-img.dwnld-icon{
+a.dwnld-link{
 	width: 40pt;
 	height: 40pt;
-	float: right;
+	margin: auto;
+	display: block;
+}
+
+img.dwnld-icon{
+	width: 100%;
+	height: 100%;
 }
