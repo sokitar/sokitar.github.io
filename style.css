@@ -62,6 +62,8 @@ img#perfil{
 	margin-bottom: 20pt;
 	display: block;
 	clear: right;
+	border-style: dotted;
+	border-color: #38023B;
 }
 
 a {
@@ -86,6 +88,7 @@ div.about-block {
 	margin-top: 10pt;
 	margin-right: 10pt;
 	padding: 10pt;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 }
 
 hr.simple{
@@ -103,6 +106,7 @@ div#cv-info-wrapper{
 div#lastje-container{
 	margin: 10pt 10pt 0pt 10pt;
 	background-color: #ade5ec;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 	border-radius: 5px;
 	padding: 10pt;
 }
@@ -119,6 +123,7 @@ div.proyect{
 	border-radius: 5px;
 	margin-top: 10pt;
 	margin-right: 10pt;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 	padding: 10pt;
 	text-align: justify;
 	overflow: auto;
