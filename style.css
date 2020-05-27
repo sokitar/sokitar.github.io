@@ -86,7 +86,6 @@ div.about-block {
 	margin-top: 10pt;
 	margin-right: 10pt;
 	padding: 10pt;
-	text-align: justify;
 }
 
 hr.simple{
@@ -153,4 +152,11 @@ img.proyect-icon{
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
+	border-style: dotted;
+}
+
+img.dwnld-icon{
+	width: 40pt;
+	height: 40pt;
+	float: right;
 }
