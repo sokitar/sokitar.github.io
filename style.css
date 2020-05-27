@@ -79,7 +79,7 @@ img.donation-icon{
 	display: inline-block;
 }
 
-div#about-text {
+div.about-block {
 	display: block;
 	background-color: #ade5ec;
 	border-radius: 5px;
