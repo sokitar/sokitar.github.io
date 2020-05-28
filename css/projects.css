@@ -1,0 +1,95 @@
+/*WEBPAGE COLOUR PALETTE
+ #E5F9E0 Nyanza
+ #050505 Rich black
+ #1B9AAA Munsell Blue
+ #FFFFFF White
+ #38023B Russian Violet
+ #ADE5EC Helao de pistacho
+*/
+
+
+div.project-wrapper{
+	margin: 2% 2% 0% 2%;
+	padding: 4%;
+	background-color: #afa8c7;
+	border-radius: 5px;
+	overflow: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
+}
+
+div.project-header {
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20pt;
+	padding-bottom: 2%;
+	border-bottom: 2px solid;
+}
+
+div.project-banner-container{
+	width: 100%;
+	padding : 5% 3%;
+	margin: auto;
+	border-bottom: 2px solid;
+	text-align: center;
+}
+
+img.project-banner{
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	border: 3px dotted;
+}
+
+div.project-description{
+	padding: 5% 1%;
+	font-size: 12pt;
+	text-align: justify;
+	border-bottom: 2px solid;
+}
+
+div.proyect-buttons{
+	padding: 5% 1%;
+	width: 100%;
+	text-align: center;
+}
+
+a.dwnld-link{
+	width: 40pt;
+	height: 40pt;
+	margin: auto;
+	display: block;
+}
+
+img.dwnld-icon{
+	width: 100%;
+	height: auto;
+}
+
+/*PANTALLAS GRANDES*/
+@media only screen and (min-width: 992px) {
+	
+	div.project-wrapper{
+		margin: 2%;
+		padding: 1% 2% 0% 2%;
+	}
+
+	div.project-header {
+		font-size: 40pt;
+		padding-bottom: 1%;
+		border-bottom: 2px solid;
+	}
+
+	div.project-banner-container{
+		padding : 1%;
+	}
+
+	div.project-description{
+		padding: 1%;
+		font-size: 15pt;
+	}
+
+	div.proyect-buttons{
+		padding: 1%;
+	}
+}
