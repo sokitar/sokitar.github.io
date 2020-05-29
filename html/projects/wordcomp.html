@@ -9,20 +9,67 @@
 <body>
 	<div class="main-wrapper">
 		<div class="project-wrapper">
-			<div class="project-header">Word Comp</div>
+			<div class="project-header-wrapper">
+				<a class="project-back-button-link" href="../../index.html"><img class="back-button" src="../../img/back.png"></a>
+				<div class="project-header-title">Word Comp</div>
+				<div class="project-header-filler"></div>
+			</div>
 			<div class="project-banner-container">
 				<img class="project-banner" src="../../img/projects/WordCompIcon.png">
 			</div>
-			<div class="project-description">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit curae risus sapien cubilia dapibus ligula, aptent nibh netus aliquam magnis rutrum nulla conubia aenean hendrerit lacinia suspendisse. Consequat rutrum ridiculus dui est mauris sociis penatibus praesent lobortis, facilisi sapien curae lacinia tempor hac id dis nulla conubia, morbi netus vel scelerisque et duis curabitur natoque. Commodo purus rhoncus platea vel feugiat lacus ligula eleifend placerat hendrerit, nibh dapibus duis etiam pulvinar metus penatibus sed magna.
-				<br><br>
-				Vestibulum cursus dictum euismod volutpat vel commodo facilisis donec himenaeos curabitur conubia, vivamus sem netus ac tortor facilisi nullam nisi nostra platea, natoque viverra quisque congue elementum tellus imperdiet phasellus iaculis ridiculus. Nisi eu pellentesque venenatis cubilia aenean ultrices feugiat curae sem viverra neque faucibus justo malesuada, tempus vel iaculis varius rhoncus nascetur vulputate diam congue morbi interdum lobortis. Nullam luctus eros nisi lacus molestie tristique facilisis metus neque eu vehicula nisl ultrices ridiculus, natoque donec libero laoreet sagittis commodo etiam parturient cubilia hendrerit varius bibendum facilisi.
-			</div>
 			<div class="proyect-buttons">
+				<a class="dono-link" href="https://www.paypal.me/oakirs/3" target="_blank">
+					<img src="../../img/coffee.png" class="donation-icon" alt="donation-icon">
+				</a>
 				<a href="#" class="dwnld-link">
 					<img src="../../img/dwnld.png" alt="DOWNLOAD" class="dwnld-icon">
-				</a>	
+				</a>
 			</div>
+			<div class="project-description">
+				¿Are you tired of comparing MS Word files one by one? Then this add-in is for you!
+				<br><br>
+				With this new functionality you will be able to compare the documents of a pair of folders of your choice.
+				<div class="project-detail-box">
+					<div class="project-detail-title">USAGE</div>
+					<div class="project-detail-text">
+						<ol class="project-detail-list">
+						  <li>Open Microsoft Word.</li>
+						  <li>Select <b>Review -> Compare folders.</b></li>
+						  <li>A window will open were you will have to select 3 folders, writing the URL in the textbox or using the folder selector pressing the <b>'Pick'</b> button:
+						  	<ul>
+						  		<li><b>Folder with originals</b>: Pick the folder where your original files are located.</li>
+						  		<li><b>Folder with revisions</b>: Pick the folder where the reviewed files are located.</li>
+						  		<li><b>Folder with comparisons</b>: Pick the folder where you want to save the compared files.</li>
+						  	</ul>
+						  </li>
+						  <li><b>**OPTIONAL</b>: Change the suffix that the add-in will use to find and generate your files. <br><br>
+						  You can find an example below of how you can should set the suffixes for the best results.</li>
+						  <li>Click <b>Compare</b> to start the folder comparison</li>
+						</ol>
+					</div>
+				</div>
+				<div class="project-detail-box">
+					<div class="project-detail-title">FORMAT EXAMPLE</div>
+					This example shows how the suffixes work. We will suppose the suffixes chosen are <i>_rev</i> for the revised files and <i>_comp</i> for the compared files. 
+					<ol class="project-detail-list">
+						<li>The <b>originals</b> folder contains:</li>
+						<ul>
+							<li>original.docx</li>
+							<li>random.docx</li>
+						</ul>
+						<li>The <b>revisions</b> folder contains:</li>
+						<ul>
+							<li>original_rev.docx</li>
+							<li>original_2_rev.docx</li>
+							<li>smthng.docx</li>
+						</ul>
+						<li>After execution, the <b>comparisons</b> folder will contain:</li>
+						<ul>
+							<li>original_comp.docx</li>
+							<li>original_2_comp.docx</li>
+						</ul>
+					</ol>
+				</div>
 		</div>
 	</div>
 </body>

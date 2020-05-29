@@ -144,8 +144,6 @@ a.project-link{
 	color: black;
 }
 
-
-
 div.project{
 	display: block;
 	background-color: #afa8c7;
@@ -235,6 +233,10 @@ img.project-icon{
 
 	div#proyects-container{
 		margin: 0pt 10pt 10pt 10pt;
+	}
+
+	div.project{
+		padding-bottom: 20pt;
 	}
 
 	div.project-content{

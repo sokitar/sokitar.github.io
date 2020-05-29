@@ -17,14 +17,41 @@ div.project-wrapper{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
 }
 
-div.project-header {
-	width: 100%;
-	text-align: center;
-	font-weight: bolder;
-	font-size: 20pt;
-	padding-bottom: 2%;
+div.project-header-wrapper{
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3%;
 	border-bottom: 2px solid;
 }
+
+a.project-back-button-link{
+	width: 15%;
+	float: left;
+}
+
+img.back-button{
+	width: 25pt;
+	height: 25pt;
+}
+
+div.project-header-title {
+	width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18pt;
+}
+
+div.project-header-filler{
+	display: block;
+	width: 15%;
+	float: left;
+}
+
 
 div.project-banner-container{
 	width: 100%;
@@ -41,29 +68,58 @@ img.project-banner{
 	border: 3px dotted;
 }
 
-div.project-description{
-	padding: 5% 1%;
-	font-size: 12pt;
-	text-align: justify;
-	border-bottom: 2px solid;
-}
-
 div.proyect-buttons{
 	padding: 5% 1%;
 	width: 100%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid;
 }
 
 a.dwnld-link{
 	width: 40pt;
 	height: 40pt;
-	margin: auto;
-	display: block;
+	display: inline-block;
+	margin-left: 5%;
 }
 
 img.dwnld-icon{
 	width: 100%;
 	height: auto;
+}
+
+div.project-description{
+	padding: 5% 1%;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+div.project-detail-box{
+	margin-top: 5%;
+	border-radius: 10px;
+	background-color: #e0d7ff;
+	padding: 5%;
+	text-align: left;
+	font-size: 11pt;
+	box-shadow: inset 0px 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+
+div.project-detail-title{
+	width: 100%;
+	margin: 3% 0;
+	font-weight: bolder;
+}
+
+ol.project-detail-list{
+	padding-left: 0;
+	margin-left: 7%;
+	margin-right: 2%
+}
+
+ol.project-detail-list li{
+	margin-top: 5%;
 }
 
 /*PANTALLAS GRANDES*/
@@ -91,5 +147,14 @@ img.dwnld-icon{
 
 	div.proyect-buttons{
 		padding: 1%;
+	}
+
+	img.back-button{
+		width: 50pt;
+		height: 50pt;
+	}
+
+	div.project-header-title {
+		font-size: 40pt;
 	}
 }
