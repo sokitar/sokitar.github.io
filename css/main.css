@@ -41,7 +41,7 @@ div.main-wrapper{
 	overflow: auto;
 }
 
-header#main-hd {
+header.main-hd {
 	font-variant: small-caps;
 	text-align: center;
 	padding: 5% 5% 0% 5%;
@@ -105,8 +105,8 @@ img.contact-icon{
 	display: inline-block;
 }
 img.donation-icon{
-	width: 100pt;	
-	height: 30pt;
+	width: 100%;	
+	height: 100%;
 	display: inline-block;
 }
 
@@ -184,6 +184,10 @@ div.project-img{
 	width: 100pt;
 	float: left;
 	margin-right: 5%;
+}
+
+div.project-text{
+	padding-right: 2%
 }
 
 

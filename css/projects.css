@@ -122,12 +122,21 @@ ol.project-detail-list li{
 	margin-top: 5%;
 }
 
-/*PANTALLAS GRANDES*/
-@media only screen and (min-width: 992px) {
+/*A PARTIR DE PANTALLAS MEDIANAS*/
+@media only screen and (min-width: 768px) {
 	
 	div.project-wrapper{
 		margin: 2%;
 		padding: 1% 2% 0% 2%;
+	}
+
+	img.back-button{
+		width: 50pt;
+		height: 50pt;
+	}
+
+	div.project-header-title {
+		font-size: 40pt;
 	}
 
 	div.project-header {
@@ -140,21 +149,30 @@ ol.project-detail-list li{
 		padding : 1%;
 	}
 
-	div.project-description{
-		padding: 1%;
-		font-size: 15pt;
-	}
-
 	div.proyect-buttons{
 		padding: 1%;
 	}
 
-	img.back-button{
-		width: 50pt;
-		height: 50pt;
+	a.dono-link{
+		width: 200pt;
+		height: 60pt;
 	}
 
-	div.project-header-title {
-		font-size: 40pt;
+	a.dwnld-link{
+		width: 60pt;
+		height: 60pt;
 	}
+
+	div.project-description{
+		padding: 3% 1%;
+		font-size: 15pt;
+	}
+
+	div.project-detail-box{
+		margin-top: 2%;
+		padding: 3%;
+		font-size: 18pt;
+		box-shadow: inset 0px 0px 2px 4px rgba(0,0,0,0.2);
+	}
+
 }
