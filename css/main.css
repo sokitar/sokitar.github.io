@@ -146,7 +146,7 @@ a.project-link{
 
 div.project{
 	display: block;
-	background-color: #afa8c7;
+	background-color: #fdbc6b;
 	border-radius: 5px;
 	margin-top: 10pt;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /*Añade mas de una sombra*/
@@ -156,7 +156,7 @@ div.project{
 }
 
 div.project:hover {
-	background-color: #d0c7ec;
+	background-color: #f7c990;
 }
 
 div.project-title{
