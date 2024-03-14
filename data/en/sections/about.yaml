@@ -53,8 +53,13 @@ resourceLinks:
 badges:
 - type: certification
   name: Deep Learning Specialization
-  url: "https://www.credly.com/org/coursera/badge/deep-learning-specialization"
-  badge: "https://images.credly.com/size/340x340/images/dfcd0d51-de72-4e1c-8f8c-11dad7711124/image.png"
+  url: "https://coursera.org/share/632d101c75f1145efddada3403da1f5f"
+  badge: "https://i.ibb.co/64J8mLj/deeplearningbadge.png"
+
+- type: certification
+  name: AI for Good Specialization
+  url: "https://coursera.org/share/358ea7d8e2e4372d8abc5f1236805f6b"
+  badge: "https://i.ibb.co/sV81HyX/ai4goodbadge.png"
 
 # TODO: Add more badges
 #- type: certification
@@ -68,8 +73,8 @@ badges:
 #  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Skill-Sharing
-  percentage: 85
+  name: Coding
+  percentage: 95
   color: blue
 
 - type: soft-skill-indicator

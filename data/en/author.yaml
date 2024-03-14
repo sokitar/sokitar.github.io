@@ -1,13 +1,13 @@
 # some information about you
 name: "Oscar Alexander Kirschstein Schafer"
-nickname: "Oscar"
+nickname: "Oscar!"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Welcome, I'm"
+greeting: "Nice to meet you, I'm"
 image: "images/author/me.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "oscarkirschstein@gmail.com"
-  phone: "+31 06 2552 8554"
+#  email: "oscarkirschstein@gmail.com"
+#  phone: "+31 06 2552 8554"
   github: sokitar
   linkedin: oscar-kirschstein
 
@@ -17,4 +17,4 @@ summary:
   - I am a Machine Learning Engineer
   - I love AI
   - I am a problem solver
-  - I can help you with your data
+  - Let's connect!
