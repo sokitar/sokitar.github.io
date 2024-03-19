@@ -11,36 +11,36 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
-  organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
-
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Deep Learning Specialization
+  timeline: "March 2020 - May 2020"
   organization:
     name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    url: https://www.coursera.org/specializations/deep-learning
+  courseOverview: The Deep Learning Certification offers intensive training in deep learning, covering the essentials of building and training neural networks, optimization techniques, and variance analysis. It includes practical experience with TensorFlow, CNNs for image recognition, neural style transfer for art creation, and applying deep learning to video data. The program also explores RNNs, NLP, Word Embeddings, and utilizes HuggingFace's tools for tasks like NER and Question Answering. This certification equips participants with the skills to apply advanced deep learning methods across various applications.
+  certificateURL: https://coursera.org/share/632d101c75f1145efddada3403da1f5f
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: AI for Good Specialization
+  timeline: "December 2023 - Jan 2024"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Coursera
+    url: https://www.coursera.org/specializations/ai-for-good
+  courseOverview: The "AI for Good" specialization offers three courses to master AI solutions for global challenges. Learn AI basics and improve public health with a project in Bogotá, tackle climate change through AI in energy and biodiversity, and apply AI in disaster management for real-world impact. This program blends theory and practice, preparing you to create AI projects for a better world.
+  certificateURL: https://coursera.org/share/358ea7d8e2e4372d8abc5f1236805f6b
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
+#- name: Grokking the System Design Interview
+#  timeline: \"Jan 2018 - Sept 2018\"
+#  organization:
+#    name: educative
+#    url: https://www.educative.io
+#  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We"ve carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
+#  certificateURL: "https://example.com"
+#
+#- name: Mastering Multithreading Programming with Go (Golang)
+#  timeline: "Nov 2017 - Mar 2018"
+#  organization:
+#    name: Udemy
+#    url: https://www.udemy.com
+#  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
+#  certificateURL: "https://example.com"
  
 

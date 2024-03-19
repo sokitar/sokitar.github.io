@@ -11,57 +11,57 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Geo Insights
+    url: "https://www.linkedin.com/company/geo-insights-vof/"
+    location: Den Bosch, The Netherlands
+    logo: /images/sections/experiences/geoinsights.png
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Geo Insights is a small start-up that aims to bridge satellite innovation and ecological expertise for sustainable solutions across sectors.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Machine Learning Specialist
+    start: Feb 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Investigate, Design and Develop sustainable ML solutions
+    - Strong collaboration with business partners to align expectations and deliverables
+    - Strategical planning for the company's future AI/ML projects.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+#  - designation: Junior Software Engineer
+#    start: Nov 2017
+#    end: Oct 2019
+#    responsibilities:
+#    - Implement and test xyz feature for abc tool.
+#    - Support client for abc tool.
+#    - Learn k,d,w technology for xyz.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Dynapps
+    url: "https://www.dynapps.eu/"
+    location: Rotterdam, The Netherlands
+    logo: /images/sections/experiences/dynapps.png
+    overview: Dynapps is the world-wide leading Odoo partner with ISO27001 compliance.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Technical Consultant (Full-Stack)
+    start: October 2023
+    end: May 2024
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Understand, Extend, Test and Deploy Odoo modifications tailored to our customers expectations.
+    - Worked with Scrum methodology and CI/CD development.
+    - Strict formatting, quality control and unit testing in Python.
+
+- company:
+    name: HI Iberia.
+    url: "https://www.hi-iberia.es/"
+    location: Madrid, Spain
+    logo: /images/sections/experiences/hiberia.png
+    overview: HI Iberia is consultancy firm pioneer in software development, business innovation and sustainable international projects across Spain and Europe.
+  positions:
+  - designation: Machine Learning Engineer
+    start: Sep 2020
+    end: Jul 2023
+    responsibilities:
+    - State-of-the-art ML model development and deployment (Tensorflow, Kubeflow, Flask).
+    - Full pipeline ownership from Data Collection to Model Deployment.
+    - Developed all kinds of ML algorithms (Vision, NLP, Classification, Regression, etc.)

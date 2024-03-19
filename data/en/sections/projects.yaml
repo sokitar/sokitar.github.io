@@ -21,44 +21,51 @@ section:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: Inpercept
+  logo: /images/sections/projects/inpercept.png
+  role: ML Engineer - HI Iberia
+  timeline: "February 2023 - July 2023"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://www.hi-iberia.es/projects/inpercept  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: InPercept advances autonomous and connected vehicle technology, focusing on improved safety and efficiency through innovative perception and AI-driven assistance systems.
+  tags: ["YOLO-v7", "autonomous-vehicles", "computer-vision"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: Cosibas
+  logo: /images/sections/projects/cosibas.png
+  role: ML Engineer - HI Iberia
+  timeline: "November 2020 - June 2021"
+#  repo: https://github.com/tensorflow/tensorflow
+  url: "https://www.hi-iberia.es/projects/cosibas"
+  summary: Aims to revolutionize Energy IoT platforms with AI-driven cognitive services, improving decision-making and support for users.
+  tags: ["energy", "smart-city", "regression"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Distingo
+  role: ML Engineer - HI Iberia
+  timeline: "November 2021 - February 2022"
+  url: "https://www.hi-iberia.es/projects/distingo"
+  summary: DISTINGO innovates with adaptable smart lockers for versatile use in Smart Cities, improving functionality and security, led by HI Iberia with computer vision technology.
+  tags: ["smart-lockers", "smart-city", "computer vision"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Mad@Work
+  logo: /images/sections/projects/madatwork.png
+  role: ML Engineer - HI Iberia
+  timeline: "February 2022 - May 2022"
+  url: https://www.hi-iberia.es/projects/madatwork
+  summary: Targets improving mental health and productivity in workplaces by developing AI-driven solutions to detect and mitigate stress and burnout before they become diagnosed mental health disorders.
+  tags: ["mental-health", "workplace-wellness", "stress-detection"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Moore4Medical
+  logo: /images/sections/projects/m4m.png
+  role: ML Engineer - HI Iberia
+  timeline: "May 2022 - October 2022"
+  url: https://www.hi-iberia.es/projects/moore4medical
+  summary: Moore4Medical fast-tracks electronic medical device innovation, targeting breakthroughs like bioelectronic medicines and smart diagnostics to streamline healthcare solutions. The project emphasizes open platforms to accelerate development and ensure European leadership in affordable healthcare.
+  tags: ["sleep-apnea","healthcare","wearables"]
+
+- name: AfarCloud
+  logo: /images/sections/projects/afarcloud.png
+  role: ML Engineer - HI Iberia
+  timeline: "October 2022 - February 2023"
+  url: https://www.hi-iberia.es/projects/afarcloud
+  summary: AfarCloud aims to revolutionize agriculture with a cloud-based platform, enhancing efficiency, productivity, and food quality through real-time integration and management of cyber-physical systems.
+  tags: ["hostility-detection","smart-agriculture","object-detection"]
