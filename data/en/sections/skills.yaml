@@ -28,17 +28,17 @@ skills:
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Main programming language with +7 years experience. Used for my ML projects and personal development."
+  summary: "Main programming language with 7+ years experience. Used for my ML projects and personal development."
   url: "https://www.python.org/"
 
 - name: AWS
   logo: /images/sections/skills/aws.png
-  summary: "Worked Sagemaker to train models. Also deployed an API product."
+  summary: "Worked with Sagemaker to train models. Also deployed an API product."
   url: "https://aws.amazon.com/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "My main operating system. Capable of writing bash/shell scripts. Where I learned to program."
+  summary: "My main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
   logo: /images/sections/skills/git.png
