@@ -11,6 +11,11 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: Languages
+  logo: /images/sections/skills/languages.png
+  summary: "English - Fluent<br>Spanish - Native<br>German - Native<br>Dutch - Beginnner"
+  url: "https://pytorch.org/"
+
 - name: Pytorch
   logo: /images/sections/skills/pytorx.png
   summary: "Experience with building Machine Learning pipelines, fine-tuning models, and building complex DataLoaders."

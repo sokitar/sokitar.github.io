@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics on Oscar A. Kirschstein Schäfer Portfolio</title>
+    <title>Basics on Oscar Kirschstein&#39;s Portfolio</title>
     <link>https://sokitar.github.io/notes/go/basic/</link>
-    <description>Recent content in Basics on Oscar A. Kirschstein Schäfer Portfolio</description>
+    <description>Recent content in Basics on Oscar Kirschstein&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://sokitar.github.io/notes/go/basic/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Go বেসিক</title>

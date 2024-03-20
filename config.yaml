@@ -1,7 +1,7 @@
 baseURL: https://sokitar.github.io
 
 languageCode: en-us
-title: "Oscar A. Kirschstein Schäfer Portfolio"
+title: "Oscar Kirschstein's Portfolio"
 
 # Use Hugo modules to add theme
 module:
